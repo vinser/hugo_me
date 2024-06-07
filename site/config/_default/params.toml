@@ -1,0 +1,113 @@
+[main]
+    separator = "-"
+    description = "Serguei Vine aka vinser personal site"
+    enableDarkMode = true
+    modes = ["light", "dark"]
+    canonifyAssetsURLs = false
+    endorse = true
+    footerBelowFold = false
+    loading = "lazy"
+    breakpoint = "md"
+    [main.externalLinks]
+        cue = true
+        tab = true
+    [main.build]
+        transpiler = "libsass"
+
+# [favicon]
+#     logo = "img/V.png"
+    # sizes = [16, 32, 48]
+
+[home]
+    sections = ["apps", "news"]
+    fullCover = false
+    centerHeadline = false
+    style = ""
+    [home.feature]
+        orientation = "horisontal"
+        color = ""
+        width = 6
+        align = "start"
+        justify = "between"
+
+[navigation]
+    logo = "/img/VC-logo.svg"
+    # anchor = true
+    # color = "body"
+    # fixed = true
+    # overlay = false
+    # overlayMode = "dark"
+    # horizontal = false
+    # offset = "5.5rem"
+    # offsetXS = "5.5rem"
+    # search = true
+    # searchModal = false
+    # breadcrumb = true
+    # toc = true
+    # sidebar = true
+    # size = "md"
+
+[sections]
+    [sections.apps]
+        title = "Apps"
+        sort = "weight"
+        reverse = false
+        cols = 3
+        color = ""
+        padding = "0"
+        header = "none"
+        footer = "none"
+        orientation = "stacked"
+        style = "border-0 card-zoom card-body-margin"
+        # homepage = 3
+        separator = true
+    [sections.news]
+        title = "News"
+        sort = "date"
+        # layout = "card"
+        # reverse = true
+        # nested = true
+        # cols = 1
+        # background = "body-tertiary"
+        # color = "body"
+        # padding = "3"
+        # header = "none"
+        # footer = "tags"
+        # orientation = "horizontal"
+        # style = "border-1 card-emphasize"
+        # homepage = 3
+        # separator = false
+
+[favicon]
+    logo = "img/favicon.png"
+    sizes = [16, 32, 48]
+
+[style]
+    # primary = "#d43900"
+    primary = "#0d6efd"
+    secondary = "#6c757d"
+    success = "#198754"
+    info = "#0dcaf0"
+    warning = "#ffc107"
+    danger = "#dc3545"
+    light = "#f8f9fa"
+    dark = "#212529"
+
+    themeOpacity = "10"
+    darkModeShade = "20%"
+    darkModeTint = "40%"
+    
+    themeFont = "Inter"
+    themeFontPath = "/fonts" # local path
+    themeFontPreload = "/fonts/inter-v12-latin-regular.woff2"
+    fontSizeBase = "1rem" # assumes the browser default, typically '16px'
+    purge = false
+
+[links]
+    flibgolite_project = "https://github.com/vinser/flibgolite"
+    pixyne_project = "https://github.com/vinser/pixyne"
+    burnfix_project = "https://github.com/vinser/burnfix"
+    flibgolite_site = "https://vinser.github.io/flibgolite"
+    pixyne_site = "https://vinser.github.io/pixyne"
+    burnfix_site = "https://vinser.github.io/burnfix"
+
